@@ -1,0 +1,11 @@
+models:
+  regressor_1 :
+    file_name: template_model.h5
+    path: models\template_model.h5
+    version : 1.0
+    description : template model 1
+  classificator_1 : 
+    file_name: template_model.h5
+    path: models\template_model.h5
+    version : 1.0
+    description : template model 2
