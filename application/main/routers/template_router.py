@@ -13,7 +13,7 @@ from application.main.services.template_service import (
     TemplateService,
 )
 
-
+from application.main.infrastructure.database.postgresql.operations import PostgresDb
 template_service = TemplateService()
 
 
@@ -34,6 +34,7 @@ router = APIRouter(prefix="/template")
 
 ##### DATABASE INSTANCES
 _db = db_mongo_instance
+
 
 ##### LOGGER INSTANCE
 logger = logger_instance.get_logger(__name__)
@@ -67,7 +68,8 @@ async def template12(r: List[TemplateModel]):
 @router.get("/basic")
 async def template3(input_text: str):
     logger.info("Basic response")
-    result = await _db.update_multiple_db_record("1")
+    result = PostgresDb.fetch_multiple_db_record()
+    print(result)
     question_type = template_service.classify(input_text)
     return {
         "data" : result
