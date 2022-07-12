@@ -1,6 +1,0 @@
-dev_mongodb:
-  host: "localhost"
-  port: "49156"
-  user : docker:mongopw
-  db_name: "db"
-  collection_name: "collection_1"

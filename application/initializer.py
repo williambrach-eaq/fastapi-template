@@ -28,7 +28,14 @@ class PsqlInstance(object):
 
         return db_postgresql.DataBase()
 
+class InfluxDbInstance(object):
+    def __new__(cls):
+        from application.main.infrastructure.database import db_influx
+
+        return db_influx.DataBase()
+
 
 # instance creation
 logger_instance = LoggerInstance()
 db_mongo_instance = MongoDbInstance()
+db_influx_instance = InfluxDbInstance()

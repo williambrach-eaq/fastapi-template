@@ -1,4 +1,5 @@
 absl-py==1.1.0
+
 aiohttp @ file:///C:/ci/aiohttp_1646806572557/work
 aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
@@ -13,6 +14,16 @@ arrow @ file:///opt/conda/conda-bld/arrow_1649166651673/work
 astroid @ file:///C:/ci/astroid_1628063282661/work
 astropy @ file:///C:/ci/astropy_1650634291321/work
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+
+aiohttp==3.8.1
+altair==4.2.0
+anyascii==0.3.1
+anyio==3.6.1
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asgiref==3.5.2
+asttokens==2.0.5
+
 astunparse==1.6.3
 async-timeout @ file:///tmp/build/80754af9/async-timeout_1637851218186/work
 atomicwrites==1.4.0
@@ -94,6 +105,7 @@ google-cloud-core @ file:///tmp/build/80754af9/google-cloud-core_1625077425256/w
 google-cloud-storage @ file:///tmp/build/80754af9/google-cloud-storage_1601307969662/work
 google-crc32c @ file:///C:/ci/google-crc32c_1613234249694/work
 google-pasta==0.2.0
+
 google-resumable-media @ file:///tmp/build/80754af9/google-resumable-media_1624367812531/work
 googleapis-common-protos @ file:///C:/ci/googleapis-common-protos-feedstock_1617957814607/work
 greenlet @ file:///C:/ci/greenlet_1628888275363/work
@@ -138,6 +150,28 @@ jupyterlab @ file:///opt/conda/conda-bld/jupyterlab_1647445413472/work
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-server @ file:///opt/conda/conda-bld/jupyterlab_server_1644500396812/work
 jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
+
+grpcio==1.46.3
+h11==0.13.0
+h5py==3.7.0
+idna==3.3
+influxdb==5.3.1
+influxdb-client==1.30.0
+importlib-metadata==4.11.4
+iniconfig==1.1.1
+ipykernel==6.15.0
+ipython==8.4.0
+ipython-genutils==0.2.0
+ipywidgets==7.7.0
+jedi==0.18.1
+Jinja2==3.1.2
+jmespath==1.0.1
+joblib==1.1.0
+jsonschema==4.6.0
+jupyter-client==7.3.4
+jupyter-core==4.10.0
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==1.1.0
 keras==2.9.0
 Keras-Preprocessing==1.1.2
 keyring @ file:///C:/ci/keyring_1638531673471/work

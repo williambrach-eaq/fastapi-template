@@ -1,0 +1,7 @@
+dev_influx:
+  token: "4MmD2Tk8a_Zvf-A31ArSl4d-Q94j4BM41YjL30pw3qUjq8Bnd51YKpe_5YT45iyCMWQkNNFXLycxXskWiNo1Mg=="
+  host: "localhost"
+  port: "8086"
+  user : admin
+  org: "eaq"
+  bucket: "db"
