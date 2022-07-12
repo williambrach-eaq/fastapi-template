@@ -30,6 +30,11 @@
     uvicorn manage:app --host 0.0.0.0 --port 8000
     ```
 
+### Update requirements
+    ```
+    pip freeze > requirements.txt
+    ```
+
 ### Docker Support 🐳
 
     docker build -t fastapi-image  .
